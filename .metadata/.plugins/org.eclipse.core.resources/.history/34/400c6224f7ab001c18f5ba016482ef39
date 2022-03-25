@@ -1,0 +1,8 @@
+package sec06;
+
+public class Practice_long {
+	public static void main(String[] args) {
+		float a = 100.0;
+		System.out.print(a);
+	}
+}
