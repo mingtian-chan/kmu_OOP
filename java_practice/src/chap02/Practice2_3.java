@@ -1,0 +1,15 @@
+package chap02;
+
+import java.util.Scanner;
+
+public class Practice2_3 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("밑면의 반지름은? : ");
+		double radius = in.nextDouble();
+		System.out.print("원기둥의 높이는? : ");
+		double height = in.nextDouble();
+		double volume = radius * radius * 3.14 * height;
+		System.out.println("원기둥의 부피는 " + volume);
+	}
+}
